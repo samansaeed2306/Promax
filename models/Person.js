@@ -4,10 +4,7 @@ app.use(express.json());
 const mongoose=require("mongoose");
 
 const PersonSchema=mongoose.Schema({
-Fname:{
-    type:String,
-},
-Email:{
+    Name:{
     type:String
 }
 
